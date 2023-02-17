@@ -5,3 +5,6 @@ while n != 0:
     lst.append(n)
 lst.reverse()
 print(*lst, end=" ")
+"""also for direct intiger reverse
+n=int(input())
+print(str(n)[::-1])"""
