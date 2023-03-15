@@ -6,14 +6,7 @@ which corresponds to the berth number whose neighbor is to be found out.
 Output format The output is to display the berth of the neighbor of the corresponding seat. Refer sample input and output for formatting specifications."""
 n = int(input())
 sample=50
-r_1=[]
-r_2=[]
-r_3=[]
-r_11=[]
-r_22=[]
-r_33=[]
-s=[]
-s_1=[]
+r_1, r_2, r_3, r_11, r_22, r_33, s, s_1 = [], [], [], [], [], [], [], []
 for i in range(sample):
     k=(1+(i*8))
     r_1.append(k)
